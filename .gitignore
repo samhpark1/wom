@@ -1,0 +1,72 @@
+# Node.js / React
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.cache/
+*.env.local
+
+# Vite / Webpack / Parcel build artifacts
+.vite
+.vite-cache
+.next/
+out/
+
+# Python / Flask
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.db-journal
+*.sqlite
+*.log
+.env
+.venv/
+*.egg-info/
+instance/
+*.pytest_cache/
+
+# 🔥 Secret Python files
+secrets.py
+config.py
+*.secrets.py
+*.config.py
+*.env.py
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+*.tar
+
+# AWS / Cloud
+.aws-sam/
+.terraform/
+.cloudformation/
+*.tfstate
+*.tfstate.backup
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Deployment
+*.pem
+*.key
+*.crt
+*.config
+*.kube
